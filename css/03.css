@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: rgb(0, 255, 255);
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.container{
+	width:1000px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 265px;
+	background:url(../img/101.jpg) top center;
+	overflow: hidden;
+}
+header>.title{
+	padding: 50px;
+	color:#000000;
+	float: left;
+}
+header>nav{
+	float:right;
+	padding:50px;
+}
+header>nav>ul>li{
+	float:left;
+	padding:0 12px;
+}
+header>nav>ul>li>a:link{
+	color:#fff;
+	text-shadow: 2px 2px #999;
+}
+header>nav>ul>li>a:hover{
+	color:red;
+	text-decoration: underline;
+}
+header>.search{
+	float: left;
+	position: relative;
+	left: 350px;
+	top: 50px;
+}
+.container>.content{
+	width:990px;
+	margin: 0 auto;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.container>.content>.left{
+	float:left;
+	width: 180px;
+	text-align: center;
+}
+.container>.content>.left>h4{
+	color: rgb(255, 0, 0);
+	padding: 10px 0;
+}
+.container>.content>.left>nav>ul>li{
+	padding: 8px 0;
+	background: url(../img/list.png) no-repeat 40px 12px;
+}
+.container>.content>.left>nav>ul>li>a:link{
+	color: #000;
+}
+.container>.content>.left>nav>ul>li>a:hover{
+	color:rgb(255,102,0);
+	text-decoration: underline;
+}
+.container>.content>.right{
+	float:right;
+	width: 760px;
+	padding:10px 20px;
+}
+.container>.content>.right>h4{
+	color:rgb(255,102,0);
+	padding:30px 0 10px 20px;
+	border-bottom: 2px solid green;
+}
+.container>.content>.right>.item{
+	border:1px solid #ccc;
+	width:160px;
+	margin:10px;
+	float:left;
+}
+footer{
+	width: 100%;
+	height: 86px;
+	padding-top: 45px;
+	background: #000000;
+	text-align: center;
+	color: #fff;
+}
+.page>.P1{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
